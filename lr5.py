@@ -40,8 +40,8 @@ def analyze(text_en):
         print(data['ErrorMessage'])
 
 
-# response = requests.get('http://numbersapi.com/')
-# print(response.text)
+response = requests.get('http://numbersapi.com/')
+print(response.text)
 
 
 while True:
